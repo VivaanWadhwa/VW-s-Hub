@@ -1,0 +1,8 @@
+f=open("Satyamrox.txt","w")
+f.writelines(["Hello!","\nWelcome to Satyamrox.txt","\nthis is for testing purposes.","\nGood Luck!"])
+f.close()
+f=open("Satyamrox.txt","a")
+f.write("\nNow the file has more content")
+f.close()
+f=open("Satyamrox.txt","r")
+print (f.read())
